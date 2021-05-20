@@ -53,7 +53,7 @@ database and also access customer orders. For a full user experience please log
 in with the user details below or create an account which will saved to the
 server.
 
-https://webdev-davidm.github.io/E-commerce-front-end/
+https://webdev-davidm.github.io/E-commerce-site-React-front-end/
 
 Customer: username: footballblubber@googlemail.com, password: Technics1
 
