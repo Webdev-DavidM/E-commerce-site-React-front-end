@@ -2,7 +2,7 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Webdev-DavidM.github.io/E-commerce-front-end",
+  "homepage": "http://Webdev-DavidM.github.io/E-commerce-site-React-front-end",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",

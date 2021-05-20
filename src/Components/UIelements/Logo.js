@@ -11,7 +11,7 @@ const Logo = () => {
     <div className={styles.logo}>
       <NavLink to='/'>
         <img
-          src={`https://webdev-davidm.github.io/E-commerce-front-end/images/logo.png`}
+          src={`${process.env.PUBLIC_URL}/images/logo.png`}
           alt='DM sports logo'></img>
       </NavLink>
     </div>
