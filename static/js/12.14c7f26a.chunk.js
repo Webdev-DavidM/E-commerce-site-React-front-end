@@ -1,0 +1,2 @@
+(this["webpackJsonpfront-end"]=this["webpackJsonpfront-end"]||[]).push([[12],{128:function(n,t,o){n.exports={notfound:"NotFound_notfound__1Fe33"}},145:function(n,t,o){"use strict";o.r(t);var e=o(0),c=(o(1),o(128)),r=o.n(c);t.default=function(){return Object(e.jsx)("div",{className:r.a.notfound,children:Object(e.jsx)("h1",{children:"Sorry, we can't find that page!"})})}}}]);
+//# sourceMappingURL=12.14c7f26a.chunk.js.map
