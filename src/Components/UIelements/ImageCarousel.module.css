@@ -1,0 +1,69 @@
+.carousel {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem 0;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.carousel div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  right: 0%;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.carouselmoveright div {
+  right: +100%;
+}
+
+.carouselmoveleft div {
+  right: -100%;
+}
+
+.carousel div img {
+  object-fit: contain;
+  width: 60%;
+  height: auto;
+}
+
+.carousel div span {
+  display: none;
+}
+
+.carousel div span span {
+  font-size: 3rem;
+  color: #2c3e50;
+  height: 3rem;
+}
+
+.carousel div span span p {
+  font-size: 3rem;
+  color: #2c3e50;
+  height: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel div img {
+    object-fit: contain;
+    width: 50%;
+    height: 80%;
+    margin-top: 1.5rem;
+  }
+
+  .carousel div span {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

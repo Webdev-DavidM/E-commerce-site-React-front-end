@@ -1,0 +1,10 @@
+.reviewcontainer:hover {
+  cursor: pointer;
+}
+
+.reviewdivider {
+  width: 100%;
+  height: 1px;
+  background-color: #2ecc71;
+  border: none;
+}

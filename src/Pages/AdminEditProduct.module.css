@@ -1,0 +1,298 @@
+.editproductcontainer {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  color: #2c3e50;
+  height: auto;
+  background-color: #ecf0f1;
+  position: relative;
+}
+
+.viewproductbtn,
+.editproductbtn {
+  height: 2rem;
+  margin: 0.5rem;
+  background-color: #3498db;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 4px;
+  transition: color 0.3s;
+}
+
+.viewproductbtn:hover .editproductbtn:hover {
+  cursor: pointer;
+  background-color: #2980b9;
+}
+
+.productmodal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 240, 241, 0.8);
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  position: fixed;
+  top: calc(50% - 17%);
+  width: 80%;
+  height: 35%;
+  display: flex;
+  font-size: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(236, 240, 241, 1);
+  background-color: white;
+}
+
+.productbtn {
+  width: 12rem;
+  height: 2.5rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 3px;
+  color: rgba(236, 240, 241, 1);
+  background-color: rgba(52, 152, 219, 1);
+  transition: background-color 0.3s;
+}
+
+.productbtn:hover {
+  width: 12rem;
+  height: 2.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  border: none;
+  color: rgba(236, 240, 241, 1);
+  background-color: rgba(41, 128, 185, 1);
+}
+
+.sizeinput {
+  width: 2rem !important;
+  margin: 0 1rem !important;
+  resize: none;
+}
+
+.smallcontainer {
+  width: 3rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sizecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.submitbtn {
+  background-color: #e67e22;
+}
+
+textarea {
+  min-height: 6rem;
+  width: 100%;
+  font-size: 1.2rem;
+  height: auto;
+}
+
+.editproductcontainer h4 a {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.3s;
+}
+
+.uploadbtn {
+  margin: 0.5rem 0;
+  background-color: #2ecc71;
+  width: 8rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #ecf0f1;
+  transition: background-color 0.3s;
+}
+
+.uploadbtn:hover {
+  background-color: #27ae60;
+  cursor: pointer;
+}
+
+.editproductcontainer h4 a:hover {
+  color: #f1c40f;
+}
+
+.editformcontainer form {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.gobackbtn {
+  width: 6rem;
+  height: 2rem;
+
+  background-color: #3498db;
+  border: none;
+  border-radius: 3px;
+}
+
+.dropdown {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  margin: 1rem 0;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+.gobackbtn:hover {
+  background-color: #2980b9;
+  cursor: pointer;
+}
+
+.editformcontainer form label input {
+  display: block;
+  width: 98%;
+  padding: 0.5rem 0;
+  /* margin: 1rem 0; */
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.editformcontainer form label input:last-child {
+  margin-bottom: 1rem;
+}
+
+.imagecontainer {
+  display: flex;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.submitbtn {
+  background-color: red;
+}
+
+.imagebtn {
+  position: relative;
+}
+
+.imagehover {
+  position: absolute;
+  display: flex;
+  height: 4rem;
+  width: 6rem;
+  padding: 0 0.5rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  color: #f39c12;
+  font-size: 3rem;
+}
+
+.error {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  border-radius: 2px;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editformcontainer form input:focus,
+.editformcontainer form input:active {
+  outline: 1px solid #e67e22;
+}
+
+.editformcontainer form input:last-child {
+  width: 100%;
+}
+
+.editformcontainer a {
+  text-decoration: none;
+  color: #3498db;
+  transition: all 0.3s;
+}
+
+.editformcontainer a:hover {
+  color: #f1c40f;
+}
+
+.editformcontainer {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+input[type='submit'] {
+  background-color: #f39c12;
+  color: #ecf0f1;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type='submit']:hover {
+  background-color: #d35400;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .editformcontainer {
+    width: 60%;
+  }
+
+  .sizecontainer {
+    font-size: 1rem;
+  }
+
+  .product {
+    width: 50%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .productbtn {
+    width: 12rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+    border: none;
+  }
+
+  .uploadbtn {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .editformcontainer {
+    width: 50%;
+  }
+
+  .uploadbtn {
+    width: 20%;
+  }
+}
