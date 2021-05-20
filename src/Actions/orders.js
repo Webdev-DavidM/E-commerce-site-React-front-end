@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 export const getAllOrdersForAdmin = ({ admin }) => {
-  console.log(admin);
   return async (dispatch) => {
     dispatch({ type: 'ORDER_SENT' });
     try {
@@ -15,7 +14,6 @@ export const getAllOrdersForAdmin = ({ admin }) => {
         },
       });
       if (res.status === 200) {
-        console.log(res.data);
         dispatch({ type: 'ADMIN_ALL_USER_ORDERS_SUCCESS', orders: res.data });
       }
     } catch (err) {

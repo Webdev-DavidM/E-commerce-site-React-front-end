@@ -20,7 +20,6 @@ export const userSignIn = (email, password) => {
         dispatch({ type: 'LOGIN_FAIL', error: response.data });
       }
     } catch (err) {
-      console.log(err);
       // this will catch a network error( server down)
       if (err.request && err.request.status === 0) {
         dispatch({

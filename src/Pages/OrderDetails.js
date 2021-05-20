@@ -26,7 +26,6 @@ class OrderDetails extends Component {
 
   componentDidMount = () => {
     let { id } = this.props.match.params;
-    console.log(id);
     let { getOrder } = this.props;
     getOrder(id);
   };
@@ -49,7 +48,6 @@ class OrderDetails extends Component {
 
   submitReview = () => {
     let { submitUserReview, order } = this.props;
-    console.log(order.user._id);
 
     if (this.state.review !== '' && this.state.rating !== 0) {
       this.setState({ error: null, reviewInProgress: false });
@@ -68,7 +66,6 @@ class OrderDetails extends Component {
 
   render() {
     let { order } = this.props;
-    console.log(this.props.error);
 
     return (
       <>
@@ -94,7 +91,7 @@ class OrderDetails extends Component {
                 <h2>Order Items</h2>
                 {order.orderItems.map((item, index) => (
                   <>
-                    <div className={styles.itemdetails}>
+                    <div key={index} className={styles.itemdetails}>
                       <div>
                         <span className={styles.details}>{item.name}</span>
                         <span className={styles.details}>
