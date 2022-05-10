@@ -2,7 +2,7 @@
 
 This e-commerce project provides the full functionality of a e-commerce website.
 I have created it as a personal project using the MERN tech stack, MongoDB,
-Express, Node and React.
+Express, Node and React and Redux.
 
 the back-end project can be viewed on a different repository-
 e-commerce-REST-API.
